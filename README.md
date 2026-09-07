@@ -68,8 +68,8 @@ IF(
 
 * **Price distribution:** Mid-Range (₹1,000–2,000) is the dominant tier at 49.8% of listings, followed by Budget (30.8%), Premium (17.6%), and a small Luxury tail (1.8%) — including outliers as high as ₹54,000.
 * **Discount vs. rating:** A weak negative correlation (r = -0.226) exists across the 193 brands with 20+ listings — deeper average discounts are mildly associated with slightly lower ratings, though the relationship is far from strong. The scatter plot shows a loosely scattered cloud rather than a tight trend.
-* **Top-rated products (1,000+ ratings only):** Levi's dominates the credible top 10, holding 6 of the 10 spots — primarily 511 and 512 Slim Fit variants across different price points and colorways.
-* **Sample-size matters:** 42 of 417 brands (10%) had only a single listing, and would have produced misleading "100% this, 0% that" style stats if not filtered out before brand-level comparisons.
+* **Top-rated products (1,000+ ratings only):** Levis dominates the credible top 10, holding 6 of the 10 spots — primarily 511 and 512 Slim Fit variants across different price points and colorways.
+
 
 ## Report Pages
 
