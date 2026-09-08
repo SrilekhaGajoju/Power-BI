@@ -35,20 +35,20 @@ Single flat table (`HR`, 1,470 rows, 32 columns after cleanup). No relationships
 ```dax
 Total Employees = COUNTROWS(HR)
 
-Attrited Employees = CALCULATE(COUNTROWS(HR), HR\\\\\\\[Attrition] = "Yes")
+Attrited Employees = CALCULATE(COUNTROWS(HR), HR[Attrition] = "Yes")
 
-Attrition Rate = DIVIDE(\\\\\\\[Attrited Employees], \\\\\\\[Total Employees])
+Attrition Rate = DIVIDE(Attrited Employees], [Total Employees])
 
 Tenure Bucket =
 SWITCH(
     TRUE(),
-    HR\\\\\\\[YearsAtCompany] <= 2, "New Hire (0-2 yrs)",
-    HR\\\\\\\[YearsAtCompany] <= 5, "Establishing (3-5 yrs)",
-    HR\\\\\\\[YearsAtCompany] <= 10, "Experienced (6-10 yrs)",
+    HR[YearsAtCompany] <= 2, "New Hire (0-2 yrs)",
+    HR[YearsAtCompany] <= 5, "Establishing (3-5 yrs)",
+    HR[YearsAtCompany] <= 10, "Experienced (6-10 yrs)",
     "Veteran (10+ yrs)"
 )
 
-Average Monthly Income = AVERAGE(HR\\\\\\\[MonthlyIncome])
+Average Monthly Income = AVERAGE(HRMonthlyIncome])
 ```
 
 `Attrition Rate` is the backbone measure of the entire project — every breakdown below reuses this single formula, recalculated automatically for each filter context (department, role, tenure bucket, etc.) rather than requiring separate formulas per question.
