@@ -51,9 +51,9 @@ Average Discount % = AVERAGE(Products\[Discount(%)])
 Price Band =
 SWITCH(
     TRUE(),
-    Products\[price] < 1000, "Budget (<Rs.1,000)",
-    Products\[price] < 2000, "Mid-Range (Rs.1,000-2,000)",
-    Products\[price] < 5000, "Premium (Rs.2,000-5,000)",
+    Products[price] < 1000, "Budget (<Rs.1,000)",
+    Products[price] < 2000, "Mid-Range (Rs.1,000-2,000)",
+    Products[price] < 5000, "Premium (Rs.2,000-5,000)",
     "Luxury (Rs.5,000+)"
 )
 
