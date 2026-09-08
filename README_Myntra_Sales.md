@@ -59,7 +59,7 @@ SWITCH(
 
 Brand Has Enough Data =
 IF(
-    CALCULATE(COUNTROWS(Products), ALLEXCEPT(Products, Products\[brand\_name])) >= 20,
+    CALCULATE(COUNTROWS(Products), ALLEXCEPT(Products, Products[brand_name])) >= 20,
     "Yes", "No"
 )
 ```
