@@ -2,6 +2,9 @@
 
 A Power BI dashboard analyzing \~52,000 scraped men's jeans listings from Myntra, focused on pricing strategy, discount behavior, and rating credibility.
 
+<img width="1332" height="743" alt="Screenshot 2026-10-01 150453" src="https://github.com/user-attachments/assets/36d772a9-0fdd-42f6-871c-415be0cab9e5" />
+
+
 ## Business Questions Answered
 
 1. Which brands offer the deepest average discounts, and does that correlate with product rating?
