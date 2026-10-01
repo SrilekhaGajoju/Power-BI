@@ -2,6 +2,10 @@
 
 A Power BI dashboard analyzing employee attrition drivers across 1,470 employees, using IBM's classic HR analytics sample dataset. Built to demonstrate DAX-heavy, categorical people-analytics — a distinct domain from transactional/retail analysis.
 
+<img width="1342" height="743" alt="Screenshot 2026-10-01 145828" src="https://github.com/user-attachments/assets/9e304cf8-5bb0-4707-87c1-1e488e96e3c4" />
+
+
+
 ## Business Questions Answered
 
 1. What is the overall attrition rate, and how does it break down by Department and Job Role?
@@ -93,4 +97,7 @@ Average Monthly Income = AVERAGE(HRMonthlyIncome])
 4. **Examine Level 3 specifically** for promotion/compensation gaps, given its anomalous attrition spike relative to neighboring levels
 
 ## 
+
+
+
 
